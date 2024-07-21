@@ -73,7 +73,6 @@ While learning about programming language design I was taught the basics of Java
 
 # How to Set Up
 This project was implemented on our local machine inside of a virtual machine using:
-- Ubuntu Version 20.04.03 found at this [link](http://lt.releases.ubuntu.com/20.04.3/).
 - Clone this repository 
 - Open terminal at the codebase `~.../java-ball-game/BallGame/`
 - Use this command to compile the codebase
@@ -84,13 +83,18 @@ javac *.java
 ```zsh
 java BallGame 1 basic 0.08 
 ```
+- The following arguments will be passed to the game in the command line: 
+`# of balls, ball type, ball radius` 
+- ball type and  ball radius will be repeated for each ball. 
 
+For example: 
+`4 basic 0.10 bounce 0.05 shrink 0.13 split 0.05`
 
 
 
 
 # Project Overview
-This project utilizes 
+This project utilizes ss
 
 
 
