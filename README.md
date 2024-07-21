@@ -4,25 +4,25 @@
 <h1 align="center">Java Ball Game</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/java-ball-game?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/java-ball-game?color=E95420">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/java-ball-game?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/java-ball-game?color=E95420">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/java-ball-game?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/java-ball-game?color=E95420">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/java-ball-game?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/java-ball-game?color=E95420" />
 </p>
 
 <p align="center">
 <img
-    src="https://img.shields.io/badge/Java-3776AB?style=for-the-badge&logo=java&logoColor=white"
+    src="https://img.shields.io/badge/Java-EB8F1C?style=for-the-badge&logo=java&logoColor=white"
     alt="Website Badge" />      
 <img
-    src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white"
+    src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"
     alt="Website Badge" />
 </p>
 
-This project is intended to showcase our knowledge learning about Neural Network Design by developing a
+While learning about programming language design I 
 
 ![project image](resources/image1.png)
 
