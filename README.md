@@ -22,7 +22,7 @@
     alt="Website Badge" />
 </p>
 
-While learning about programming language design I 
+While learning about programming language design I was taught the basics of Java and how it is a strictly object-oriented language with a garbage collector. To demonstrate what I learned I made a simple ball clicking game using the standard library graphics interface with arrays lists. 
 
 ![project image](resources/image1.png)
 
