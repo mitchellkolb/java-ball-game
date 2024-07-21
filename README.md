@@ -54,10 +54,10 @@ While learning about programming language design I was taught the basics of Java
 
 
 # Tools Used / Development Environment
-- Python
+- Java
 - VS Code
 - Terminal
-- Windows 10
+- Ubuntu
 
 
 
@@ -65,8 +65,7 @@ While learning about programming language design I was taught the basics of Java
 
 # Team / Contributors / Teachers
 - [Mitchell Kolb](https://github.com/mitchellkolb)
-- [name]()
-- Professor. 
+- Associate Professor. Jeremy E. Thompson
 
 
 
@@ -76,7 +75,15 @@ While learning about programming language design I was taught the basics of Java
 This project was implemented on our local machine inside of a virtual machine using:
 - Ubuntu Version 20.04.03 found at this [link](http://lt.releases.ubuntu.com/20.04.3/).
 - Clone this repository 
-- Open terminal at the codebase `~.../ext2/Noah-Mitchell/`
+- Open terminal at the codebase `~.../java-ball-game/BallGame/`
+- Use this command to compile the codebase
+```zsh
+javac *.java
+```
+- Use this command to run the program.
+```zsh
+java BallGame 1 basic 0.08 
+```
 
 
 
