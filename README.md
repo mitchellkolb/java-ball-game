@@ -42,7 +42,13 @@ While learning about programming language design I was taught the basics of Java
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+- [Project Details](#project-details)
+    - [Introduction](#introduction)
+    - [Technical Plan](#technical-plan)
+    - [Implementation Details](#implementation-details)
+    - [Files and Structure](#files-and-structure)
+    - [Implementation](#implementation)
+    - [Results and Observations](#results-and-observations)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -95,41 +101,38 @@ For example:
 
 
 # Project Overview
-This project utilizes ss
+This project is a simple ball-clicking game developed in Java to demonstrate various object-oriented programming concepts. The player scores points by clicking on moving balls before they exit the scene.
+
+# Project Details
+
+## Introduction
+This project was created to apply Java's object-oriented principles and demonstrate the implementation of a simple game using standard libraries and array lists. The game includes different types of balls, each with unique behaviors and scoring mechanisms.
+
+## Technical Plan
+The project utilizes Java's object-oriented features, including class inheritance and polymorphism, to create different ball types with specific behaviors. The game maintains an array list of ball objects, updating their states and checking for user interactions.
+
+## Implementation Details
+The game supports multiple ball types:
+- **BasicBall**: A simple ball that moves randomly.
+- **ShrinkBall**: A ball that shrinks in size with each hit.
+- **BounceBall**: A ball that bounces off the screen borders a limited number of times.
+- **SplitBall**: A ball that splits into two smaller balls each time it is hit.
+
+## Files and Structure
+- `BallGame.java`: Main class that initializes the game and handles the game loop.
+- `BasicBall.java`: Implements the basic ball class with methods to draw, move, and check interactions.
+- `ShrinkBall.java`: Extends `BasicBall` to add shrinking behavior.
+- `BounceBall.java`: Extends `BasicBall` to add bouncing behavior.
+- `SplitBall.java`: Extends `BasicBall` to add splitting behavior.
+- `Player.java`: Manages player information and scoring.
+
+## Implementation
+The game begins with a specified number of balls, which are managed in an array list. Each ball's behavior is determined by its type, and the player's score is updated based on successful hits.
+
+## Results and Observations
+During development, various challenges were encountered and addressed, such as managing ball interactions and ensuring smooth gameplay. The following images showcase the game's progress:
 
 
-
-## Project Details
-
-### Introduction
-In this project, we apply 
-
-
-### Technical Plan
-The project employs a 
-
-
-### Implementation Details
-
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
-
-
-### Implementation
-In this project
-
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
 
 
 
