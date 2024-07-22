@@ -73,6 +73,7 @@ While learning about programming language design I was taught the basics of Java
 
 # How to Set Up
 This project was implemented on our local machine inside of a virtual machine using:
+- **Install Java Development Kit (JDK)**: Follow instructions from [OpenJDK](https://openjdk.java.net/install/) or [Oracle](https://www.java.com/en/download/help/develop.html).
 - Clone this repository 
 - Open terminal at the codebase `~.../java-ball-game/BallGame/`
 - Use this command to compile the codebase
@@ -84,7 +85,7 @@ javac *.java
 java BallGame 1 basic 0.08 
 ```
 - The following arguments will be passed to the game in the command line: 
-`# of balls, ball type, ball radius` 
+`# of balls`,  `ball type`,  `ball radius` 
 - ball type and  ball radius will be repeated for each ball. 
 
 For example: 
