@@ -24,7 +24,7 @@
 
 While learning about programming language design I was taught the basics of Java and how it is a strictly object-oriented language with a garbage collector. To demonstrate what I learned I made a simple ball clicking game using the standard library graphics interface with arrays lists. 
 
-![project image](resources/JavaBallGame.gif)
+![project image](resources/JavaBallGame2.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
@@ -43,7 +43,6 @@ While learning about programming language design I was taught the basics of Java
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
 - [Project Details](#project-details)
-    - [Introduction](#introduction)
     - [Technical Plan](#technical-plan)
     - [Implementation Details](#implementation-details)
     - [Files and Structure](#files-and-structure)
@@ -54,9 +53,12 @@ While learning about programming language design I was taught the basics of Java
 ---
 
 # What I Learned in this Project
-- Programming fundamentals for Java
-- 
-
+- Programming syntax fundamentals for Java
+- Java Libraries: Using standard libraries for graphics and I/O operations.
+- Inheritance: Creating subclasses to extend base class functionality.
+- Type Casting: Understanding Java's type system and performing type casting.
+- Arrays and ArrayLists: Managing collections with arrays and ArrayLists.
+- OOP Principles: Applying classes, inheritance, polymorphism, and encapsulation.
 
 
 # Tools Used / Development Environment
@@ -106,7 +108,7 @@ This project is a simple ball-clicking game developed in Java to demonstrate var
 # Project Details
 
 ## Introduction
-This project was created to apply Java's object-oriented principles and demonstrate the implementation of a simple game using standard libraries and array lists. The game includes different types of balls, each with unique behaviors and scoring mechanisms.
+This project was assigned to me so I could apply Java's object-oriented principles with a simple game using standard libraries and array lists. The game includes different types of balls, each with unique behaviors and scoring mechanisms.
 
 ## Technical Plan
 The project utilizes Java's object-oriented features, including class inheritance and polymorphism, to create different ball types with specific behaviors. The game maintains an array list of ball objects, updating their states and checking for user interactions.
@@ -130,7 +132,7 @@ The game supports multiple ball types:
 The game begins with a specified number of balls, which are managed in an array list. Each ball's behavior is determined by its type, and the player's score is updated based on successful hits.
 
 ## Results and Observations
-During development, various challenges were encountered and addressed, such as managing ball interactions and ensuring smooth gameplay. The following images showcase the game's progress:
+When I was coding this I had various challenges that I encountered and addressed, such as managing ball interactions and ensuring smooth gameplay. One thing I would fix is that on the start of the game the most hit ball is stated as an error becuase no balls have been clicked. I would want to make this show something else as it is not an error that needs the big text of "ERROR" across the screen.
 
 
 
